@@ -1,5 +1,7 @@
 # E-Commerce App
 
+![E-Commerce App Cover Photo](https://github.com/user-attachments/assets/6ebac29d-4c2a-4343-b3a4-6e9c3e8de42c)
+
 The E-Commerce App is a full-stack application built with the PERN stack (PostgreSQL, Express, React, Node.js). It features user authentication with JSON Web Tokens, protected routes for both buyers and sellers, and a database that manages users, products, and shopping carts. Sellers can add, update, and delete products, while buyers can view products, add them to their shopping cart, and checkout. The application is meant to be a personal project to learn more about full-stack development with the PERN stack.
 
 The app is built with the following technologies:
