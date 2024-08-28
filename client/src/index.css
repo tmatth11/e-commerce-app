@@ -1,0 +1,53 @@
+/* Cards */
+.shop-card {
+    box-shadow: 15px 14px 9px 0px #969696ab;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.shop-card, .product-card {
+    width: 750px !important;
+    height: 350px !important;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+
+/* Shop Button */
+.shop-btn {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+/* Cart Table */
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 320px) {
+    .table {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .shop-card, .product-card {
+        max-width: 300px !important;
+        min-height: 300px !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .shop-card, .product-card {
+        max-width: 350px !important;
+        min-height: 300px !important;
+    }
+}
